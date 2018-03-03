@@ -8,6 +8,9 @@
     font-size: 1.2rem;
 }
 
+::-webkit-scrollbar,::-webkit-scrollbar-button,::-webkit-scrollbar-track,::-webkit-scrollbar-track-piece,::-webkit-scrollbar-thumb,::-webkit-scrollbar-corner,::-webkit-resizer
+{opacity:0; }
+
 @media (min-width: 500px) and (min-height: 400px) {
     .Burger {
         width: 350px;
