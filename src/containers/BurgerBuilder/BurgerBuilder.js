@@ -124,7 +124,7 @@ purchaseContinueHandler = ()=>{
         }
 
         let orderSummary = null;
-        let burger = this.state.error ? <p>Ingredients can't be loaded!</p> : <Spinner />
+        let burger = this.state.error ? <p>Ingredients cant be loaded </p> : <Spinner />
 
         if(this.state.ingredients){
             burger = (
